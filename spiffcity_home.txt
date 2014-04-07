@@ -1,0 +1,101 @@
+<?php
+ class Home extends CI_Controller{
+  function __construct(){
+   parent :: __construct();
+   $this->load->model('spiffcity/home_model');
+   $this->load->library('form_validation');
+  }
+  
+  function index(){
+   $this->load->view('spiffcity/home');
+  }
+  function popular(){
+   $this->load->view('spiffcity/popular');
+  }
+  function signup(){
+   $this->form_validation->set_rules('email','Email','trim|required|valid_email|is_unique[sp_users.email]');
+   $this->form_validation->set_rules('username','Username','trim|required|is_unique[sp_users.userid]');
+   $this->form_validation->set_rules('password','required');
+   $resultvalid = $this->form_validation->run();
+   if($resultvalid == true){
+    if(isset($_POST)){
+     $arrData['email']    = $this->input->post('email');
+     $arrData['userid']   = $this->input->post('username');
+     $arrData['password'] = md5($this->input->post('password'));
+     $date = date("y-m-d");
+     $arrData['modified_date']  = $date;
+     $arrData['created_date']  = $date;
+     
+     $registerFlag = $this->home_model->register($arrData);
+     if($registerFlag == true){
+      session_start();      
+      $_SESSION['username'] = $arrData['userid'];
+      header('location:'.base_url().'spiffcity/popular');
+     }
+     else{
+      header('location:'.base_url().'spiffcity/home');
+     }
+    }    
+   }
+   else{    
+    $this->session->set_flashdata('success', '<font color="RED">nop  !!</font>');
+    header('location:'.base_url().'spiffcity/home');    
+   }
+  }
+  
+  function signin(){
+   $this->form_validation->set_rules('username','required');
+   $this->form_validation->set_rules('password','required');
+   $resultvalid = $this->form_validation->run();
+   if($resultvalid == true){    
+    if(isset($_POST)){
+     $arrData['userid'] = $this->input->post('username');
+     $arrData['password'] = md5($this->input->post('password'));
+     $signinFlag = $this->home_model->signin($arrData);
+     if($signinFlag == true){      
+      session_start();
+      $this->session->set_userdata('user_id',$signinFlag);
+      $_SESSION['username'] = ucFirst($arrData['userid']);
+      $this->session->set_flashdata('success', 'User Logged In  Successfully !!');
+      header('location:'.base_url().'spiffcity/popular');
+     }
+     else{
+      $this->session->set_flashdata('success', 'nop  !!');
+      header('location:'.base_url().'spiffcity/home?id=frmRegistration');
+      
+     }
+    }
+   }
+  }
+  
+  function social_currency_engine(){
+   $this->load->view('spiffcity/social_currency_engine');
+  }
+  function logout(){
+   session_start();
+   if(isset($_SESSION['username'])){
+    $this->session->sess_destroy();
+    $_SESSION['username'] = null;
+    header('loaction:'.base_url().'spiffcity/home');
+   }   
+  }
+  function check_username_availability(){
+   $username = $this->input->post('user');
+   $result = $this->home_model->chk_availability($username);
+   if($result){
+    echo "true";
+   }else{
+    echo "false";
+   }   
+  }
+  function check_email_availability(){
+   $email = $this->input->post('user_email');
+   $result = $this->home_model->check_email($email);
+   if($result){
+    echo "true";
+   }else{
+    echo "false";
+   }
+  } 
+ }
+?>

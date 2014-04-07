@@ -1,0 +1,95 @@
+
+.view {
+    border: 5px solid #FFFFFF;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    cursor: default;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 98%;
+}
+.view .mask, .view .content {
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.view img {
+    display: block;
+    position: relative;
+}
+.view h2 {
+    background: none repeat scroll 0 0 #99CC66;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    font-family: "Boogaloo" !important;
+    font-size: 17px;
+    margin: 20px 0 0;
+    padding: 10px;
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+}
+.view p {
+    color: #FFFFFF;
+    font-family: 'Droid Sans';
+    font-size: 12px;
+    padding: 10px 20px 20px;
+    position: relative;
+    text-align: center;
+}
+.view a.info {
+    background: none repeat scroll 0 0 #99CC66;
+    bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: "Boogaloo" !important;
+    padding: 7px 14px;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000000;
+}
+.view-portfolio img {
+    transition: all 0.2s linear 0s;
+}
+.view-portfolio .mask {
+    background: url("../images/pattern.png") repeat scroll 0 0 rgba(153, 204, 102, 0.698);
+    opacity: 0;
+    transition: all 0.4s ease-in-out 0s;
+}
+.view-portfolio h2 {
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: all 0.2s ease-in-out 0s;
+}
+.view-portfolio p {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 0.2s linear 0s;
+}
+.view-portfolio:hover img {
+    transform: scale(1.1, 1.1);
+}
+.view-portfolio a.info {
+    opacity: 0;
+    transition: all 0.2s ease-in-out 0s;
+}
+.view-portfolio:hover .mask {
+    opacity: 1;
+}
+.view-portfolio:hover h2, .view-portfolio:hover p, .view-portfolio:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-portfolio:hover p {
+    transition-delay: 0.1s;
+}
+.view-portfolio:hover a.info {
+    transition-delay: 0.2s;
+}

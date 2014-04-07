@@ -1,0 +1,666 @@
+/*#####for_all_page_css_style#######*/
+@font-face {
+	font-family: 'Conv_CALIBRI_1';
+	/*
+	src: url('fonts/CALIBRI_1.eot');
+	
+	src: local('?'), url('fonts/CALIBRI_1.woff') format('woff'), url('fonts/CALIBRI_1.ttf') format('truetype'), url('fonts/CALIBRI_1.svg') format('svg');
+	*/
+	font-weight: normal;
+	font-style: normal;
+	
+}
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image:url(images/top_bg.jpg);
+	background-repeat:repeat-x;
+	background-position:top left;
+	background-color:#ffffff;
+	font-family:verdana;
+	color:#575757;
+	font-size:12px;}
+div, span, h1, h2, h3, h4, h5, h6, p, strong, sub, sup, ul, li, fieldset, form, label, legend, {
+	margin:0; padding:0; border:0; outline:0; 
+	}
+
+input[type="radio"], input[type="checkbox"] {
+	margin:0; padding:0; border:0; outline:0;  background:transparent;
+	}
+
+a {text-decoration:none;}
+a:hover {text-decoration:none;}
+
+.clear{clear:both;}
+
+a {outline:none;
+   border:none;
+   text-decoration:none;
+   }
+li,a,img,ul{outline:none;
+   border:none;
+   }
+   
+img{
+	outline:none;
+	border:none;}
+	
+p{
+	margin:0px;
+	padding:0px;}
+	
+h1{
+	color:#2c92b2;
+	font-size:16px;
+	padding-top:0px;
+	margin:0px;
+	width:100%;
+	font-family:verdana;
+	font-weight:normal;
+	text-align:justify;
+	}	
+	
+h2{
+	color:#575757;
+	font-size:20px;
+	padding-top:0px;
+	margin:0px;
+	width:100%;
+	}	
+	
+h3{
+	color:#FFF;
+	font-size:18px;
+	padding-top:0px;
+	margin:0px;
+	width:100%;
+	}	
+	
+/*#####end_body_main#######*/
+
+#wrapper{width:100%; margin:0 auto; height:auto; background-image:url(../images/bg.jpg); background-repeat:repeat-x; background-position:left top;}
+#header{width:1004px; margin:0 auto; border:0px solid red; height:93px;}
+#container{width:100%; margin:0 auto; border:0px solid red; height:auto; background-image:url(../images/wrapper_bg.jpg); background-repeat:repeat-x; background-position:left bottom;}
+#footer{width:100%; margin:0 auto; border:0px solid red; height:500px; background-image:url(../images/footer_bg.jpg); background-repeat:repeat-x; background-position:left top; height:49px; float:left;}
+
+/*start_header*/
+.logo{width:319px; margin:14px 0 0 13px; float:left;}
+#header .right_cont{float:right; margin:0px; padding:0px; border:0px solid red; width:500px;}
+#header .right_cont .search{background-image:url(../images/search_bg.png); background-repeat:no-repeat; background-position:left top; width:188px; height:21px; float:right; margin:12px 12px 0 0;}
+#header .right_cont .search input{background-color:transparent; border:none; width:159px; padding:0 5px; float:left; height:21px; line-height:21px; font-family:verdana; font-size:12px; color:#888888;}
+#header .right_cont .search .search_icon{float:left; margin:2px 0 0 0; padding:0px;}
+#header .right_cont .right_nav{width:100%; float:left; margin:10px 0 0 0; padding:0px; border:0px solid red;}
+#header .right_cont .right_nav ul{list-style:none; margin:0px; padding:0px; float:right; width:480px; border:0px solid #000;}
+#header .right_cont .right_nav ul li{width:auto; float:left; margin:0px; padding:0px; font-family:verdana; font-size:14px; color:#686868; line-height:30px;}
+#header .right_cont .right_nav ul .profile_info{background-image:url(../images/header_profile_name.png); background-repeat:no-repeat; background-position:left 5px; padding:0 0 0 29px; font-family:verdana; font-size:14px; color:#2c92b2; height:26px; line-height:30px; margin:0 25px 0 0;}
+#header .right_cont .right_nav ul .profile_info a{color:#2c92b2; text-decoration:none;}
+#header .right_cont .right_nav ul li a{padding:0 8px; color:#686868; text-decoration:none;}
+/*end_header*/
+
+/*start_mid_contain*/
+.mid_contain{width:908px; height:auto; margin:0 auto; border:0px solid red; padding:95px 0px 39px 0px; display:table;} 
+.mid_contain_left{width:458px; height:auto; float:left; border:0px solid red; margin:0px 55px 0px 0px;}
+.mid_contain_left ul{width:100%; margin:12px 0px 0px 0px; padding:0px;}
+.mid_contain_left ul li{background-image:url(../images/arrow.png); background-repeat:no-repeat; background-position:0px 5px; float:left; width:435px; padding:0 0 8px 23px; margin:0px; line-height:20px; list-style:none; font-size:12px;  text-align: justify;}
+.mid_contain_right{width:391px; height:auto; float:left; border:0px solid red; margin:0px 0px 0px 0px;}
+.round_box{width:402px; height:auto; float:left; margin:41px 0px 0px 0px; border:0px solid red;}
+.round_box ul{width:100%; margin:0px 0px 0px 0px; padding:0px;}
+.round_box ul li{width:auto; margin:0px 6px 0px 0px; float:left; padding:0px; border:0px solid red; list-style:none; background-image:none;} 	
+.round_box ul li a{text-decoration:none;}
+.round_box ul li a:hover{text-decoration:none;}
+.round_box span img{margin:-21px 0px 0px 0px;}
+.mid_contain_right span{float:left;}
+.mid_contain_right span img{margin:0px 14px 0px 20px;}
+.mid_contain_right h2{margin:40px 0px 0px 0px; width:auto;}
+.login_box{width:331px; height:217px; margin:0px 0px 0px 0px; float:left; background-image:url(../images/shadow_box.png); background-repeat:no-repeat; background-position: left top; padding:23px 30px 0px 30px}
+.login_box ul{width:100%; float:left; list-style:none;   margin: 0 0 0 68px; padding:0px;}
+.login_box li{ color:#747474; font-weight:bold; font-size:12px; width:auto; float:left; margin:8px;}
+.login_box li a{text-decoration:underline; color:#747474;}
+.login_box li a:hover{text-decoration:none;}
+.login_box_in {margin:0px 0px 19px 0px; float:left;}
+.login_box_in p{width:auto; line-height:30px; margin:0px 13px 0px 0px; float:left; font-size:13px;font-weight:bold;}
+.login_box_in input{ border:1px solid #c0c0c0; width:206px; line-height:30px; padding:0px 5px 0px 5px; margin:0px; float:left; font-family:12px; font-family:verdana; height:30px;}
+.login_box label{/* margin:0px 0px 20px 88px; */float:left; border:0px solid red;}
+.login_box label a{ text-decoration:underline; color:#747474; font-weight:bold; font-size:11px;} 
+.login_box label a:hover{ text-decoration:none; color:#747474;} 
+
+/*
+.button_submit_right{
+    background-color: #FFFFFF;
+    background-image: url(../images/right_button.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    float: right;
+    height: 32px;
+    margin: 0;
+    
+     cursor:pointer;
+}
+.button_submit_left{
+ background-image: url("../images/left_button.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    display: block;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    height: 32px;
+    line-height: 24px;
+   	background-color:transparent;
+   	border:none;
+   	cursor:pointer;
+   	 margin: 0 16px 0 0;
+}
+*/
+.buttun_submit{background-image:url(../images/login_butn.png); background-repeat:no-repeat; background-position:right; float:right; width:87px; height:32px; cursor:pointer; border:none;background-color:transparent;color:#FFFFFF;text-align:left;padding: 0 0 4px 10px;}
+.buttun_submit input{cursor:pointer;background-color:transparent;border:none;font-size:15px;color:#FFFFFF;text-align:left;line-height:32px;margin-top:5px; }
+
+.buttun_log{background-image:url(../images/login_butn.png); background-repeat:no-repeat; background-position:right; float:right; line-height:32px; width:87px; height:32px; text-indent:20px; cursor:pointer;}
+.buttun_log a{color:#FFF; font-size:14px; text-decoration:none; display:block;}
+.buttun_log a:hover{color:#FFF; text-decoration:none;}
+.for_sign_up{width:162px; height:47px; float:left; background-image:url(../images/sing_up_img.png); background-repeat:no-repeat; background-position:left top; text-align:center; margin:0px 0px 0px 120px; text-indent:30px; padding:9px 0px 0px 0px;}
+.for_sign_up a{text-decoration:none; color:#FFF;}
+.for_sign_up a:hover{text-decoration:none; color:#FFF;} 
+/*end_mid_contain*/
+
+
+/* Main Start */
+#main_wrapper{width:970px; margin:auto; border:0px solid red;}
+#main_wrapper .main_inner{margin:0px; padding:15px 0; float:left;}
+
+/* Col Left Start */
+#main_wrapper .main_inner .col-left{width:190px; float:left; }
+#main_wrapper .main_inner .col-left .profile_bg{/*background-image:url(../images/profile_pic_bg.jpg);*/ background-repeat:no-repeat; background-position:left top; margin:0px; padding:4px; float:left; width:150px; height:101px;}
+#main_wrapper .main_inner .col-left .profile_name{width:97%; float:left; margin:5px 0 0 0; padding:0 0 0 25px; background-image:url(../images/profile_name.png); background-repeat:no-repeat; background-position:left top; font-family:verdana; font-size:13px; color:#585858;}
+#main_wrapper .main_inner .col-left .pofile_edit{float:left; margin:12px 0 0 0; border:1px solid red;}
+#main_wrapper .main_inner .col-left .acorrd{width:100%; float:left; margin:10px 0 0 0;}
+#main_wrapper .main_inner .col-left .acorrd .tab{ width:150px; height:auto; float:left; margin:0px 0px 0px 0px;}
+#main_wrapper .main_inner .col-left .acorrd .tab ul{ width:100%; height:auto; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;}
+#main_wrapper .main_inner .col-left .acorrd .tab ul li{ width:100%;float:left; text-decoration:none; list-style:none; background-image:url(../images/circle_arrow.png); background-position:left 3px; background-repeat:no-repeat; padding:0px 8px 0px 15px; margin:5px 0 0 0; font-family:verdana; font-size:13px; color:#df6400; border-bottom:1px dashed #474747;}
+#main_wrapper .main_inner .col-left .acorrd .tab ul li a{ text-decoration:none; color:#df6400;}
+#main_wrapper .main_inner .col-left .acorrd .tab ul li a:hover{text-decoration:underline; color:#df6400;}
+#main_wrapper .main_inner .col-left .acorrd .tab ul ul{width:130px; float:left; margin:0px; padding:0px; float:left;}
+#main_wrapper .main_inner .col-left .acorrd .tab ul ul li{width:100%; float:left; margin:0px; padding:0px; font-family:verdana; font-size:12px; color:#333; background-image:none; margin:5px 0 0 0; padding:0 0 0 12px; *padding:0px; border:none;}
+#main_wrapper .main_inner .col-left .left_cont{background-image:url(../images/bottom_left_cont.png); background-repeat:no-repeat; background-position:left bottom; width:177px; margin:8px 0 0 0; float:left; padding:0 0 5px 0;}
+#main_wrapper .main_inner .col-left .left_cont .top_bg{background-image:url(../images/top_left_cont.png); background-repeat:no-repeat; background-position:left top; width:177px; height:5px; float:left;}
+#main_wrapper .main_inner .col-left .left_cont .mid{width:163px; border-left:1px solid #c6c6c6; border-right:1px solid #c6c6c6; margin:0px; padding:6px; float:left;}
+#main_wrapper .main_inner .col-left .left_cont .mid .head{background-image:url(../images/dot.png); background-repeat:no-repeat; background-position:left 5px; font-family:verdana; font-size:13px; color:#0080a0; margin:0px; padding:0 0 0 12px; width:100%; float:left;}
+#main_wrapper .main_inner .col-left .left_cont .mid p{font-family:verdana; font-size:12px; color:#6b6b6b; margin:0px; padding:5px 0; width:100%; float:left;}
+/* Col Left End */
+
+#main_wrapper .main_inner .mid-col{float:left; width:525px; border-right:1px solid #c6c6c6; border-left:1px solid #c6c6c6; padding:0 25px;}
+#main_wrapper .main_inner .mid-col .navigation{width:100%; float:left; background-image:url(../images/nav_bg.png); background-repeat:no-repeat; background-position:center top; height:65px;}
+#main_wrapper .main_inner .mid-col .navigation ul{width:100%; margin:0px; float:left; padding:0px; border:0px solid red; list-style:none;}
+#main_wrapper .main_inner .mid-col .navigation li{background-image:url(../images/nav_divider.png); background-repeat:no-repeat; background-position:right top; height:40px; line-height:40px; font-family:Conv_CALIBRI_1, verdana; width:auto; float:left; font-size:15px;}
+#main_wrapper .main_inner .mid-col .navigation .last{background-image:none;}
+#main_wrapper .main_inner .mid-col .navigation li a{color:#ffffff; text-decoration:none; padding:0 50px;} 
+#main_wrapper .main_inner .mid-col .navigation li a:hover{background-image:url(../images/active_areow.png); background-repeat:no-repeat; background-position:center 40px; height:65px; display:block;}
+#main_wrapper .main_inner .mid-col .navigation li a.active{background-image:url(../images/active_areow.png); background-repeat:no-repeat; background-position:center 39px; height:65px; display:block;}
+
+/* Document Start */
+#main_wrapper .main_inner .mid-col .doc_list{width:100%; float:left; margin:0px; border:0px solid red;}
+#main_wrapper .main_inner .mid-col .doc_list ul{list-style:none; float:left; margin:0px; padding:0px;}
+#main_wrapper .main_inner .mid-col .doc_list li{border-bottom:1px dotted #474747; padding:0 0 5px 0; width:100%; float:left; margin:12px 0 0 0;}
+#main_wrapper .main_inner .mid-col .doc_list li .img{float:left; margin:0px; padding:0px; width:85px;}
+#main_wrapper .main_inner .mid-col .doc_list li .cont{float:left; border:0px solid red; width:435px;}
+#main_wrapper .main_inner .mid-col .doc_list li .cont h1{font-family:Conv_CALIBRI_1, verdana; color:#0097c1; font-size:15px; width:100%; margin:0px; padding:0px; font-weight:normal;}
+#main_wrapper .main_inner .mid-col .doc_list li .cont h1 sup{font-size:10px;}
+#main_wrapper .main_inner .mid-col .doc_list li .cont h1 a{color:#0097c1; text-decoration:none;}
+#main_wrapper .main_inner .mid-col .doc_list li .cont p{font-family:verdana; font-size:12px; color:#585858; float:left; width:100%; margin:5px 0; padding:0px;}
+#main_wrapper .main_inner .mid-col .doc_list li .cont .buttons{width:100%; float:left; margin:10px 0 0 0; float:right;}
+#main_wrapper .main_inner .mid-col .doc_list li .cont .buttons ul{list-style:none; float:right; margin:0px; padding:0px;}
+#main_wrapper .main_inner .mid-col .doc_list li .cont .buttons li{width:65px; border:none; float:left; padding:0px; margin:0 5px;}
+#main_wrapper .main_inner .mid-col .doc_list li .cont .buttons .butt{background-image:url(../images/view.png); background-repeat:no-repeat; background-position:left top; width:65px; height:24px; cursor:pointer; background-color:transparent; border:none; cursor:pointer;}
+#main_wrapper .main_inner .mid-col .doc_list li .cont .buttons .butt span{float:left; line-height:24px; font-family:verdana; font-size:12px; color:#585858; margin:-1px 0 0 0;}
+/* Document End */
+
+#main_wrapper .main_inner .mid-col .bot_but{width:100%; float:left; margin:12px 0 0 0; padding:0px; border:0px solid red;}
+#main_wrapper .main_inner .mid-col .bot_but .left_but
+{
+	background-image:url(../images/right_email.png);
+	background-repeat:no-repeat;
+	background-position:right top;
+	padding:0 6px 0 0;
+	display:block;
+	height:28px;
+	background-color:transparent;
+	border:none;
+	*min-width:150px;
+	float:left;
+	/* background-image:url(../images/email.png); 
+	background-repeat:no-repeat;
+	background-position:left top;
+	width:175px;
+	height:28px;
+	background-color:transparent;
+	border:none;
+	float:left;
+	cursor:pointer; */
+}
+#main_wrapper .main_inner .mid-col .bot_but .left_but span
+{
+	background-image:url(../images/left_email.png); 
+	background-repeat:no-repeat; 
+	background-position:left top;
+	padding:0 0 0 5px;
+	color:#ffffff;
+	font-family:verdana; 
+	display:block;
+	height:28px;
+	line-height:28px; 
+	*padding:0 0 0 5px;
+	float:left;
+	/* padding:0 0 0 5px;
+	float:left;
+	line-height:28px;
+	font-family:verdana;
+	font-size:12px;
+	color:#ffffff;
+	text-align:center;*/
+}
+
+
+#main_wrapper .main_inner .mid-col .bot_but .left_but input
+{
+	background-image:url(../images/left_email.png); 
+	background-repeat:no-repeat; 
+	background-position:left top;
+	background-color: transparent;
+	border:none;
+	padding:0 0 0 5px;
+	color:#ffffff;
+	font-family:verdana; 
+	display:block;
+	height:28px;
+	line-height:28px; 
+	*padding:0 0 0 5px;
+	cursor:pointer;
+}
+
+@-moz-document url-prefix() {
+ #main_wrapper .main_inner .mid-col .bot_but .left_but{background-image:url(../images/right_email.png); background-repeat:no-repeat; background-position:right 1px; padding:0 4px 0 0; display:block; height:29px; background-color:transparent; border:none;cursor:pointer}
+ #main_wrapper .main_inner .mid-col .bot_but .left_but span{background-image:url(../images/left_email.png); background-repeat:no-repeat; background-position:left top; padding:0 0px 0 8px; color:#ffffff; font-family:verdana; display:block; height:28px; line-height:28px; margin:-1px 0 0 0;}
+ .left_but input{background-image:url(../images/left_email.png); background-repeat:no-repeat; background-position:left top; padding:0 0px 0 8px; color:#ffffff; font-family:verdana; display:block; height:28px; line-height:28px; margin:1px 0 0 0;}
+ 
+}
+
+
+#main_wrapper .main_inner .mid-col .bot_but .right_but{background-image:url(../images/new_document.png); background-repeat:no-repeat; background-position:left top; height:28px; width:145px; float:right; background-color:transparent; border:none; cursor:pointer;}
+#main_wrapper .main_inner .mid-col .bot_but .right_but span{padding:0 0 0 5px; float:left; line-height:28px; font-family:verdana; font-size:12px; color:#ffffff; width:100%;}
+/* Right Col Start */
+#main_wrapper .main_inner .mid-col .baaner{width:100%; float:left; margin:15px 0 0 0; padding:0px; text-align:center;}
+#main_wrapper .main_inner .right-col{width:200px; float:right; margin:0px; padding:0px; border:0px solid red;}
+#main_wrapper .main_inner .right-col .add_ban{float:right; margin:0px; padding:0px; border:1px solid #b3b3b3;}
+#main_wrapper .main_inner .right-col .add_ban1{float:right; margin:25px 0 0 0; padding:0px; border:1px solid #b3b3b3;}
+/* Right Col End */
+
+/* Profile Start */
+#main_wrapper .main_inner .mid-col .profile{width:100%; float:left; margin:12px 0 0 0; padding:0px; border:0px solid red;}
+#main_wrapper .main_inner .mid-col .profile ul{list-style:none; margin:0px; padding:0px; float:left;}
+#main_wrapper .main_inner .mid-col .profile li{margin:12px 0 0 0; padding:0 0 12px 0; width:100%; float:left; border-bottom:1px dotted #474747;}
+#main_wrapper .main_inner .mid-col .profile li label{width:180px; float:left; margin:0px; padding:0px; font-family:verdana; font-size:15px; color:#0080a0; line-height:normal;}
+#main_wrapper .main_inner .mid-col .profile li span{text-align:right; float:left; line-height:normal; width:10px; font-family:verdana; font-size:15px; color:#0080a0;}
+#main_wrapper .main_inner .mid-col .profile li .buttons{width:100%; float:right; margin:10px 0 0 0; float:right;}
+#main_wrapper .main_inner .mid-col .profile li .buttons ul{list-style:none; float:right; margin:0px; padding:0px; width:65px;}
+#main_wrapper .main_inner .mid-col .profile li .buttons li{width:65px; border:none; float:left; padding:0px; margin:0 5px;}
+#main_wrapper .main_inner .mid-col .profile li .buttons .butt{background-image:url(../images/view.png); background-repeat:no-repeat; background-position:left top; width:65px; height:24px; cursor:pointer; background-color:transparent; border:none; cursor:pointer;}
+#main_wrapper .main_inner .mid-col .profile li .buttons .butt span{color:#666666; width:100%; float:left;  text-align:left; margin:-1px 0 0 0;}
+#main_wrapper .main_inner .mid-col .profile li .details{float:left; width:340px; margin:0px; padding:0 0 0 5px; font-family:verdana; font-size:15px; color:#666666;}
+#main_wrapper .main_inner .mid-col .profile ul .inner{width:100%; float:left; margin:0px; padding:0px; border:0px solid red;}
+#main_wrapper .main_inner .mid-col .profile ul .inner li{border:none; margin:5px 0 0 0; padding:5px 0 0 0;}
+#main_wrapper .main_inner .mid-col .profile ul .inner li label{padding:0 0 0 30px; width:130px;}
+/* Profile End */
+
+/* Mutual fund Start */
+#main_wrapper .main_inner .mid-col .mutual_fund{width:100%; float:left; border:0px solid red;}
+#main_wrapper .main_inner .mid-col .mutual_fund ul{width:100%; float:left; margin:0px; padding:0px; list-style:none;}
+#main_wrapper .main_inner .mid-col .mutual_fund li{border-bottom:1px dotted #474747;; padding:0 0 10px 0; width:100%; float:left; margin:20px 0 0 0;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .data{width:100%; float:left;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .data .heading{width:523px; float:left; text-align:center; line-height:38px; font-family:Conv_CALIBRI_1, verdana; color:#df6400; font-size:18px; background-color:#f2f2f2;border-top:1px solid #c6c6c6; border-right:1px solid #c6c6c6; border-left:1px solid #c6c6c6; }
+#main_wrapper .main_inner .mid-col .mutual_fund li .data .main_tab{border-left:1px solid #c6c6c6; width:520px; border-right:1px solid #c6c6c6; border-top:1px solid #c6c6c6;} 
+#main_wrapper .main_inner .mid-col .mutual_fund li .data .main_tab .pur{width:148px; text-indent:20px; color:#1d1d1d; font-size:13px; font-family:verdana; border-right:1px solid #c6c6c6; border-bottom:1px solid #c6c6c6; line-height:30px;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .data .main_tab .now{width:105px; text-indent:20px; color:#1d1d1d; font-size:13px; font-family:verdana; border-right:1px solid #c6c6c6; border-bottom:1px solid #c6c6c6; line-height:30px;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .data .main_tab .prof-loss{width:165px; text-indent:20px; color:#1d1d1d; font-size:13px; font-family:verdana; border-bottom:1px solid #c6c6c6; line-height:30px;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .data .main_tab .divider{width:10px; color:#1d1d1d; font-size:13px; font-family:verdana; border-bottom:1px solid #c6c6c6; line-height:30px;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .data .main_tab .per{ width:100px; text-align:center; color:#1d1d1d; font-size:13px; font-family:verdana; border-bottom:1px solid #c6c6c6; line-height:30px;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .data .main_tab .d-pur{width:148px; text-indent:20px; color:#686868; font-size:13px; font-family:verdana; border-right:1px solid #c6c6c6; border-bottom:1px solid #c6c6c6; line-height:30px;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .data .main_tab .d-now{width:105px; text-indent:20px; color:#686868; font-size:13px; font-family:verdana; border-right:1px solid #c6c6c6; border-bottom:1px solid #c6c6c6; line-height:30px;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .data .main_tab .d-prof-loss{width:165px; text-indent:20px; color:#686868; font-size:13px; font-family:verdana; border-bottom:1px solid #c6c6c6; line-height:30px;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .data .main_tab .d-divider{width:10px; color:#686868; font-size:13px; font-family:verdana; border-bottom:1px solid #c6c6c6; line-height:30px;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .data .main_tab .d-per{ width:100px; text-align:center; color:#686868; font-size:13px; font-family:verdana; border-bottom:1px solid #c6c6c6; line-height:30px;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .buttons{width:100%; float:right; margin:10px 0 0 0; float:right;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .buttons ul{list-style:none; float:right; margin:0px; padding:0px; width:225px;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .buttons li{width:65px; border:none; float:left; padding:0px; margin:0 5px;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .buttons .butt{background-image:url(../images/view.png); background-repeat:no-repeat; background-position:left top; width:65px; height:24px; cursor:pointer; background-color:transparent; border:none; cursor:pointer;}
+#main_wrapper .main_inner .mid-col .mutual_fund li .buttons .butt span{ float:left; line-height:24px; font-family:verdana; font-size:12px; color:#585858; margin:-1px 0 0 0;}
+/* Mutual fund End */
+
+/* Mutual fund Details Start */
+#main_wrapper .main_inner .mid-col .mutual_fund_details{width:100%; float:left; margin:0px; padding:0px;}
+#main_wrapper .main_inner .mid-col .mutual_fund_details .details{width:100%; float:left; margin:0px; padding:0px;}
+#main_wrapper .main_inner .mid-col .mutual_fund_details .details .img{background-image:url(../images/mutual_img_bg.jpg); background-repeat:no-repeat; background-position:left top; width:180px; height:119px; float:left; padding:3px;}
+#main_wrapper .main_inner .mid-col .mutual_fund_details .details .head{font-family:verdana; font-size:18px; color:#0097c1; float:left; margin:0px;}
+#main_wrapper .main_inner .mid-col .mutual_fund_details ul{margin:0px; padding:0px; float:left; width:100%; list-style:none;}
+#main_wrapper .main_inner .mid-col .mutual_fund_details li{line-height:30px; font-family:verdana; font-size:15px; color:#666666; padding:0 0 5px 0; border-bottom:1px dotted #474747; width:100%; float:left;}
+#main_wrapper .main_inner .mid-col .mutual_fund_details li span{color:#0097c1;}
+#main_wrapper .main_inner .mid-col .mutual_fund_details li .buttons{width:100%; float:right; margin:10px 0 0 0; float:right;}
+#main_wrapper .main_inner .mid-col .mutual_fund_details li .buttons ul{list-style:none; float:right; margin:0px; padding:0px; width:65px;}
+#main_wrapper .main_inner .mid-col .mutual_fund_details li .buttons li{width:65px; border:none; float:left; padding:0px; margin:0 5px;}
+#main_wrapper .main_inner .mid-col .mutual_fund_details li .buttons .butt{background-image:url(../images/view.png); background-repeat:no-repeat; background-position:left top; width:65px; height:24px; cursor:pointer; background-color:transparent; border:none; cursor:pointer;}
+#main_wrapper .main_inner .mid-col .mutual_fund_details li .buttons .butt span{ float:left; line-height:24px; font-family:verdana; font-size:12px; color:#585858; margin:-1px 0 0 0; }
+/* Mutual fund Details End */
+
+/* Document Details Start */
+#main_wrapper .main_inner .mid-col .doc_details{width:100%; float:left; margin:0px; padding:0px;}
+#main_wrapper .main_inner .mid-col .doc_details .details{width:100%; float:left; margin:0px; padding:0px;}
+#main_wrapper .main_inner .mid-col .doc_details .details .img{background-image:url(../images/mutual_img_bg.jpg); background-repeat:no-repeat; background-position:left top; width:180px; height:119px; float:left; padding:3px;}
+#main_wrapper .main_inner .mid-col .doc_details .details .head{line-height:130px; font-family:verdana; font-size:18px; color:#0097c1; float:left; margin:0 0 0 10px;}
+#main_wrapper .main_inner .mid-col .doc_details ul{margin:0px; padding:0px; float:left; width:100%; list-style:none;}
+#main_wrapper .main_inner .mid-col .doc_details li{line-height:30px; font-family:verdana; font-size:15px; color:#666666; padding:0 0 5px 0; border-bottom:1px dotted #474747; width:100%; float:left;}
+#main_wrapper .main_inner .mid-col .doc_details li span{color:#0097c1;}
+#main_wrapper .main_inner .mid-col .doc_details li .buttons{width:100%; float:right; margin:10px 0 0 0; float:right;}
+#main_wrapper .main_inner .mid-col .doc_details li .buttons ul{list-style:none; float:right; margin:0px; padding:0px; width:65px;}
+#main_wrapper .main_inner .mid-col .doc_details li .buttons li{width:65px; border:none; float:left; padding:0px; margin:0 5px;}
+#main_wrapper .main_inner .mid-col .doc_details li .buttons .butt{background-image:url(../images/view.png); background-repeat:no-repeat; background-position:left top; width:65px; height:24px; cursor:pointer; background-color:transparent; border:none; cursor:pointer;}
+#main_wrapper .main_inner .mid-col .doc_details li .buttons .butt span{float:left; line-height:24px; font-family:verdana; font-size:12px; color:#585858; margin:-1px 0 0 0;}
+/* Document Details End */
+
+/* Document Edit Start */
+#main_wrapper .main_inner .mid-col .doc_edit{border:0px solid red; float:left; width:100%;}
+#main_wrapper .main_inner .mid-col .doc_edit .details{width:100%; float:left; margin:0px; padding:0px;}
+#main_wrapper .main_inner .mid-col .doc_edit .details .img{background-image:url(../images/mutual_img_bg.jpg); background-repeat:no-repeat; background-position:left top; width:180px; height:119px; float:left; padding:3px;}
+#main_wrapper .main_inner .mid-col .doc_edit .details .head{line-height:120px; font-family:verdana; font-size:18px; color:#0097c1; float:left; margin:0 0 0 10px;}
+#main_wrapper .main_inner .mid-col .doc_edit ul{margin:10px 0 0 0; padding:0px; float:left; width:100%; list-style:none;}
+#main_wrapper .main_inner .mid-col .doc_edit li{padding:0 0 5px 0; border-bottom:1px dotted #474747; width:100%; float:left; margin:8px 0 0 0;}
+#main_wrapper .main_inner .mid-col .doc_edit li label{width:230px; float:left; margin:0px; padding:0px;font-family:verdana; font-size:15px; color:#0097c1; line-height:30px;}
+#main_wrapper .main_inner .mid-col .doc_edit li input{border:1px solid #c0c0c0; width:283px; line-height:30px; padding:0px 5px 0px 5px; margin:0px; float:left; font-family:12px; font-family:verdana; height:30px;}
+#main_wrapper .main_inner .mid-col .doc_edit .image_upload input{border:1px solid #c0c0c0; width:195px; line-height:30px; padding:0px 5px 0px 5px; margin:0px; float:left; font-family:12px; font-family:verdana; height:30px;}
+#main_wrapper .main_inner .mid-col .doc_edit .image_upload button{height:30px; margin:0 0 0 5px;}
+#main_wrapper .main_inner .mid-col .doc_edit textarea{border:1px solid #c0c0c0; width:283px; padding:0px 5px 0px 5px; margin:0px; float:left; font-family:12px; font-family:verdana; height:80px;}
+#main_wrapper .main_inner .mid-col .doc_edit select{width:270px; margin:5px 0 0 0;}
+#main_wrapper .main_inner .mid-col .doc_edit .alert{font-family:verdana; font-size:15px; color:#0097c1; margin:0px; line-height:30px;}
+#main_wrapper .main_inner .mid-col .doc_edit .alert input{width:auto; float:left; text-align:left; margin:0 5px 0 0;}
+#main_wrapper .main_inner .mid-col .doc_edit .notify{width:285px; float:left; margin:0px; padding:0px;}
+#main_wrapper .main_inner .mid-col .doc_edit .notify .rad_but{width:auto; float:left; margin:5px; padding:0px;}
+#main_wrapper .main_inner .mid-col .doc_edit .notify .rad_but p{width:auto; float:left; margin:0px; padding:0px;}
+#main_wrapper .main_inner .mid-col .doc_edit .notify .rad_but input{width:auto; float:left; height:auto; line-height:normal; margin:0 2px;}
+/* Document Edit End */
+
+/* Mutual Fund Edit Start */
+#main_wrapper .main_inner .mid-col .mutual_fund_edit{width:100%; float:left; margin:0px; padding:0px;}
+#main_wrapper .main_inner .mid-col .mutual_fund_edit .details{width:100%; float:left; margin:0px; padding:0px;}
+#main_wrapper .main_inner .mid-col .mutual_fund_edit .details .head{font-family:verdana; font-size:18px; color:#0097c1; float:left; margin:0px;}
+#main_wrapper .main_inner .mid-col .mutual_fund_edit ul{margin:10px 0 0 0; padding:0px; float:left; width:100%; list-style:none;}
+#main_wrapper .main_inner .mid-col .mutual_fund_edit li{padding:0 0 5px 0; border-bottom:1px dotted #474747; width:100%; float:left; margin:8px 0 0 0;}
+#main_wrapper .main_inner .mid-col .mutual_fund_edit li label{width:230px; float:left; margin:0px; padding:0px;font-family:verdana; font-size:15px; color:#0097c1; line-height:30px;}
+#main_wrapper .main_inner .mid-col .mutual_fund_edit li input{border:1px solid #c0c0c0; width:283px; line-height:30px; padding:0px 5px 0px 5px; margin:0px; float:left; font-family:12px; font-family:verdana; height:30px;}
+#main_wrapper .main_inner .mid-col .mutual_fund_edit .image_upload input{border:1px solid #c0c0c0; width:203px; line-height:30px; padding:0px 5px 0px 5px; margin:0px; float:left; font-family:12px; font-family:verdana; height:30px;}
+#main_wrapper .main_inner .mid-col .mutual_fund_edit .image_upload button{height:30px; margin:0 0 0 5px;}
+#main_wrapper .main_inner .mid-col .mutual_fund_edit select{margin:5px 0 0 0;}
+/* Mutual Fund Edit End */
+
+/* Profile Edit Start */ 
+#main_wrapper .main_inner .mid-col .profile_edit{width:100%; float:left; margin:0px; padding:0px;}
+#main_wrapper .main_inner .mid-col .profile_edit ul{margin:10px 0 0 0; padding:0px; float:left; width:100%; list-style:none;}
+#main_wrapper .main_inner .mid-col .profile_edit li{padding:0 0 5px 0; border-bottom:1px dotted #474747; width:100%; float:left; margin:8px 0 0 0;}
+#main_wrapper .main_inner .mid-col .profile_edit li label{width:230px; float:left; margin:0px; padding:0px;font-family:verdana; font-size:15px; color:#0097c1; line-height:30px;}
+#main_wrapper .main_inner .mid-col .profile_edit li input{border:1px solid #c0c0c0; width:283px; line-height:30px; padding:0px 5px 0px 5px; margin:0px; float:left; font-family:12px; font-family:verdana; height:30px;}
+#main_wrapper .main_inner .mid-col .profile_edit li textarea{border:1px solid #c0c0c0; width:283px; padding:0px 5px 0px 5px; margin:0px; float:left; font-family:12px; font-family:verdana; height:80px;}
+#main_wrapper .main_inner .mid-col .profile_edit .additional{border:none;}
+#main_wrapper .main_inner .mid-col .profile_edit .additional label{font-size:20px;}
+#main_wrapper .main_inner .mid-col .profile_edit .notification input{width:30px; float:left;}
+/* Profile Edit End */
+
+.mid_contain_sign{width:391px; height:auto; float:left; border:0px solid red; margin:0px 0px 0px 0px;}
+.mid_contain_sign span{float:left;}
+.mid_contain_sign span img{margin:0px 14px 0px 20px;}
+.mid_contain_sign h2{margin:15px 0px 0px 0px; width:auto;}
+.sign_up{width:349px; height:423px; margin:0px 0px 0px 0px; float:left; background-image:url(../images/shadow_box2.png); background-repeat:no-repeat; background-position:left bottom; padding:15px 30px 0px 20px}
+.sign_up_in {margin:0px 0px 5px 0px; float:left;}
+.sign_up_in p{width:142px; line-height:30px; margin:0px 0px 0px 0px; float:left; font-size:13px; font-weight:bold;}
+.sign_up_in input{ border:1px solid #c0c0c0; width:190px; line-height:30px; padding:0px 5px 0px 5px; margin:0px; float:left; font-family:12px; font-family:verdana; height:30px;}
+.sign_up_in .captcha{border:1px solid #c0c0c0; float:left;}
+.sign_up_in a, .sign_up_in a:visited{  
+	color: #747474;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: underline;}
+.sign_up_in a:hover{text-decoration:none;}
+.sign_up label{/* margin:0px 0px 20px 88px; */ float:left; border:0px solid red;}
+.sign_up label a{ text-decoration:underline; color:#747474; font-weight:bold; font-size:11px;} 
+.sign_up label a:hover{ text-decoration:none; color:#747474;} 
+.buttun_log{background-image:url(../images/login_butn.png); background-repeat:no-repeat; background-position:right; float:right; line-height:32px; width:87px; height:32px; text-indent:12px; margin:0 15px 0 0; cursor:pointer;}
+.buttun_log a{color:#FFF; font-size:14px; text-decoration:none; display:block;}
+.buttun_log a:hover{color:#FFF; text-decoration:none;}
+
+/*start_footer*/
+.footer_mid{width:1004px; margin:0 auto;}
+.footer_left{width:600px; height:auto; float:left;  margin:0px 0px 0px 54px;}
+.footer_left ul{width:100%; margin:
+0px 0px 0px 0px; padding:0px;}
+.footer_left ul li{width:auto; margin:0px; padding:0px 22px 0px 22px; float:left; list-style:none; line-height:48px; list-style:none;background-image:url(../images/divider_fot.jpg); background-position:right center; background-repeat:no-repeat;}
+.footer_left ul li.fot_one{padding-left:0px;}
+.footer_left ul li.fot_last{background-image:none;}
+.footer_left ul li a{color:#575757; text-decoration:none;}
+.footer_left ul li a:hover{color:#575757; text-decoration:none;}
+.footer_right{width:120px; height:auto; float:right; line-height:48px; margin:0px 54px 0px 0px;}
+/*end_footer*/
+
+/*-----------------------------------------------------------------------------------------------*/
+/*                                         TOOLTIP STYLES                                        */
+/*-----------------------------------------------------------------------------------------------*/
+
+.tip {
+	width: 212px;
+	padding-top: 18px;
+	overflow: hidden;
+	display: none;
+	position: absolute;
+	z-index: 500;
+	background: transparent url(../images/tipTop.png) no-repeat top; text-align: justify;}
+	
+.tipMid {background: transparent url(../images/tipMid.png) repeat-y; padding: 0 25px 20px 25px; color:#2c92b2;}
+.tipMid span{color:#575757;}
+.tipTxt{color:#999;background: transparent url(../images/tipMid.png) repeat-y; padding: 0 25px 20px 25px;   }
+.tipBtm {background: transparent url(../images/tipBtm.png) no-repeat bottom; height: 32px;}
+
+/*-----------------------------------------------------------------------------------------------*/
+/*                                         TOOLTIP STYLES                                        */
+/*-----------------------------------------------------------------------------------------------*/
+
+
+input.error, textarea.error { border-color:#ae432e; }
+input.error, textarea.error { background-color:#f7ecea; border: 1px solid #AE432E !important;}
+
+.errormsg {color:#AE432E;font-size:123.1%;}
+
+.success {color:#027A61;font-size:123.1%;}
+
+
+.popupdiv{width:500px; float:left; padding:10px; overflow:auto; height:auto;}
+.popupdiv .doc_details{width:100%; float:left; margin:0px; padding:0px;}
+.popupdiv .doc_details .details{width:100%; float:left; margin:0px; padding:0px;}
+.popupdiv .doc_details .details .img{background-image:url(../images/mutual_img_bg.jpg); background-repeat:no-repeat; background-position:left top; width:180px; height:119px; float:left; padding:3px;}
+.popupdiv .doc_details .details .head{line-height:130px; font-family:verdana; font-size:18px; color:#0097c1; float:left; margin:0 0 0 10px;}
+.popupdiv .doc_details ul{margin:0px; padding:0px; float:left; width:100%; list-style:none;}
+.popupdiv .doc_details li{line-height:30px; font-family:verdana; font-size:15px; color:#666666; padding:0 0 5px 0; border-bottom:1px dotted #474747; width:100%; float:left;}
+.popupdiv .doc_details li span{color:#0097c1;}
+.popupdiv .doc_details li .buttons{width:100%; float:right; margin:10px 0 0 0; float:right;}
+.popupdiv .doc_details li .buttons ul{list-style:none; float:right; margin:0px; padding:0px; width:65px;}
+.popupdiv .doc_details li .buttons li{width:65px; border:none; float:left; padding:0px; margin:0 5px;}
+.popupdiv .doc_details li .buttons .butt{background-image:url(../images/view.png); background-repeat:no-repeat; background-position:left top; width:65px; height:24px; cursor:pointer; background-color:transparent; border:none; cursor:pointer;}
+.popupdiv .doc_details li .buttons .butt span{float:left; line-height:24px; font-family:verdana; font-size:12px; color:#585858; margin:-1px 0 0 0;}
+.popupdiv .bot_but{margin:10px 0 0 0; float:left;}
+.popupdiv .bot_but .left_but{background-image:url(../images/email.png); background-repeat:no-repeat; background-position:left top; width:175px; height:28px; background-color:transparent; border:none; float:left; cursor:pointer;}
+.popupdiv .bot_but .left_but span{padding:0 0 0 5px; float:left; line-height:26px; font-family:verdana; font-size:12px; color:#ffffff; margin:0 0 8px 0;}
+
+.emaildoc{width:500px; float:left; padding:10px; overflow-x:hidden; overflow-y:auto; height:auto;}
+.emaildoc ul{margin:0px; padding:0px; float:left; width:100%; list-style:none;}
+.emaildoc li{width:100%; float:left; margin:5px 0;  font-family:verdana; font-size:15px; color:#0097c1;}
+.emaildoc ul ul{margin:0px; padding:0 0 0 15px;}
+.emaildoc ul ul input{margin:0 8px 0 0;}
+.emaildoc .bot_but{margin:10px 0 0 0; float:left;}
+.emaildoc .bot_but .left_but{background-image:url(../images/email.png); background-repeat:no-repeat; background-position:left top; width:175px; height:28px; background-color:transparent; border:none; float:left; cursor:pointer;}
+.emaildoc .bot_but .left_but span{padding:0 0 0 5px; float:left; line-height:26px; font-family:verdana; font-size:12px; color:#ffffff; margin:0 0 8px 0;}
+
+#view_cont{width:100%; float:left; border:0px solid red;}
+#view_cont ul{list-style:none;}
+#view_cont li{width:auto !important; float:left; border:none !important; font-size:13px; margin:5px 15px 0 0 !important; padding:0px !important;}
+#view_cont li span{color:#0097C1}
+
+#terms {
+    border: 0 solid red;
+    float: left;
+    width: 765px;
+}
+#terms .heading {
+    background-image: url("../images/line.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    color: #0097C1;
+    float: left;
+    font-size: 25px;
+    padding: 0 0 20px;
+    width: 100%;
+}
+
+#terms .heading h1 {
+    background-image: url("../images/privacy.png");
+    background-position: left top;
+    background-repeat: no-repeat;
+    font-weight: normal;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 0 0 50px;
+	font-size:20px;
+}
+
+#terms p {
+    color: #474747;
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    margin: 8px 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+#main_wrapper .main_inner .mid-col .cat_listing{width:100%; float:left; margin:0px; border:0px solid red;}
+#main_wrapper .main_inner .mid-col .cat_listing ul{list-style:none; float:left; margin:0px; padding:0px;}
+#main_wrapper .main_inner .mid-col .cat_listing li{border-bottom:1px dotted #474747; padding:0 0 5px 0; width:100%; float:left; margin:12px 0 0 0;}
+#main_wrapper .main_inner .mid-col .cat_listing li .cont{float:left; border:0px solid red; width:100%;}
+#main_wrapper .main_inner .mid-col .cat_listing li .cont h1{font-family:Conv_CALIBRI_1, verdana; color:#0097c1; font-size:15px; width:100%; margin:0px; padding:0px; font-weight:normal;}
+#main_wrapper .main_inner .mid-col .cat_listing li .cont h1 sup{font-size:10px;}
+#main_wrapper .main_inner .mid-col .cat_listing li .cont h1 a{color:#0097c1; text-decoration:none;}
+#main_wrapper .main_inner .mid-col .cat_listing li .cont p{font-family:verdana; font-size:12px; color:#585858; float:left; width:100%; margin:5px 0; padding:0px;}
+#main_wrapper .main_inner .mid-col .cat_listing li .cont .buttons{width:100%; float:left; margin:10px 0 0 0; float:right;}
+#main_wrapper .main_inner .mid-col .cat_listing li .cont .buttons ul{list-style:none; float:right; margin:0px; padding:0px;}
+#main_wrapper .main_inner .mid-col .cat_listing li .cont .buttons li{width:65px; border:none; float:left; padding:0px; margin:0 5px;}
+#main_wrapper .main_inner .mid-col .cat_listing li .cont .buttons .butt{background-image:url(../images/view.png); background-repeat:no-repeat; background-position:left top; width:65px; height:24px; cursor:pointer; background-color:transparent; border:none; cursor:pointer;}
+#main_wrapper .main_inner .mid-col .cat_listing li .cont .buttons .butt span{float:left; line-height:24px; font-family:verdana; font-size:12px; color:#585858; margin:-1px 0 0 0;}
+/* Document End */
+
+/* Mutual fund Details Start */
+.popupdiv .mutual_fund_details{width:100%; float:left; margin:0px; padding:0px;}
+.popupdiv .mutual_fund_details .details{width:100%; float:left; margin:0px; padding:0px;}
+.popupdiv .mutual_fund_details .details .img{background-image:url(../images/mutual_img_bg.jpg); background-repeat:no-repeat; background-position:left top; width:180px; height:119px; float:left; padding:3px;}
+.popupdiv .mutual_fund_details .details .head{font-family:verdana; font-size:18px; color:#0097c1; float:left; margin:0px;}
+.popupdiv .mutual_fund_details ul{margin:0px; padding:0px; float:left; width:100%; list-style:none;}
+.popupdiv .mutual_fund_details li{line-height:30px; font-family:verdana; font-size:15px; color:#666666; padding:0 0 5px 0; border-bottom:1px dotted #474747; width:100%; float:left;}
+.popupdiv .mutual_fund_details li span{color:#0097c1;}
+.popupdiv .mutual_fund_details li .buttons{width:100%; float:right; margin:10px 0 0 0; float:right;}
+.popupdiv .mutual_fund_details li .buttons ul{list-style:none; float:right; margin:0px; padding:0px; width:65px;}
+.popupdiv .mutual_fund_details li .buttons li{width:65px; border:none; float:left; padding:0px; margin:0 5px;}
+.popupdiv .mutual_fund_details li .buttons .butt{background-image:url(../images/view.png); background-repeat:no-repeat; background-position:left top; width:65px; height:24px; cursor:pointer; background-color:transparent; border:none; cursor:pointer;}
+.popupdiv .mutual_fund_details li .buttons .butt span{ float:left; line-height:24px; font-family:verdana; font-size:12px; color:#585858; margin:-1px 0 0 0; }
+/* Mutual fund Details End */
+
+/* 
+* For verticle scroller on home page 
+* Added By : Neosoft
+*/
+#marqueecontainer{
+position: relative;
+width: 95%; /*marquee width */
+height: 200px; /*marquee height */
+background-color: white;
+overflow: hidden;
+padding: 2px;
+padding-left: 4px;
+}
+/* For verticle scroller on home page */
+
+/* 
+* For detail view of documents
+* Added By : Neosoft
+*/
+.detailView td{
+ 	color: #666666;
+    font-family: verdana;
+    font-size: 15px;
+    line-height: 30px;
+    padding: 0 5px;
+}
+.detailView .title{
+	color : #0097C1;
+}
+/* For verticle scroller on home page */
+
+/* Terms and Condition */
+#terms{width:765px; float:left; border:0px solid red;}
+#terms .heading{width:100%; float:left; background-image:url(../images/line.png); background-repeat:no-repeat; background-position:left bottom; padding:0 0 20px 0; font-size:25px; color:#0097c1;}
+#terms .heading h1{background-image:url(../images/privacy.png); background-repeat:no-repeat; background-position:left top; padding:0 0 0 50px; font-weight:normal; height:40px; line-height:40px;}
+#terms p{margin:8px 0; padding:0px; float:left; width:100%; font-size:12px; color:#474747; line-height:18px;}
+#terms ul{list-style:none; margin:0px; padding:0px; float:left; width:100%;}
+#terms li{/*background-image:url(../images/terms_dot.png); background-position:left 7px; background-repeat:no-repeat; padding:0px 5px 0px 10px;*/ font-size:12px; color:#474747; line-height:18px;}
+#terms h2{color:#2C92B2; font-size:18px; font-weight:normal; border-bottom:1px dotted #CFCFCF; padding:0 0 8px 0; margin:0 0 8px 0; text-transform: capitalize;}
+#terms a{color:#2C92B2;}
+/* Terms and Condition */
+
+/*---- Payment -----*/
+#payment{width:100%; float:left; border:0px solid red; min-height:550px;}
+#payment ul{list-style:none; margin:0px; padding:0px;}
+#payment li{width:100%; float:left; margin:5px 0;}
+#payment .heading{color:#0097C1; font-size:25px; background-image:url(../images/line.png); background-repeat:no-repeat; background-position:left bottom; padding:0 0 20px 0;}
+#payment .subheading{color:#575757; font-size:15px; padding:0 0 0 0px; font-weight:bold;}
+#payment .radio{padding:0 0 8px 0px; border-bottom:1px dotted #474747;}
+#payment .radio input{margin:5px 0 0 0;}
+#payment .radio span{margin:0 0 0 10px; font-size:15px;}
+#payment .submit{background-image:url(../images/view.png); background-repeat:no-repeat; background-position:left top; width:65px; height:24px; cursor:pointer;  cursor:pointer; line-height:24px;}
+#payment .submit input{background-color:transparent; border:none; color:#666666;}
+/*---- Payment -----*/
+
+/*---- contacts -----*/
+#contacts{width:765px; float:left; border:0px solid red;}
+#contacts .heading{width:100%; float:left; background-image:url(../images/line.png); background-repeat:no-repeat; background-position:left bottom; padding:0 0 20px 0; font-size:25px; color:#0097c1;}
+#contacts .heading h1{background-image:url(../images/contact.png); background-repeat:no-repeat; background-position:left top; padding:0 0 0 40px; font-weight:normal; height:40px; line-height:40px;}
+#contacts ul{list-style:none; margin:10px 0 0 0; padding:0px; float:left; width:420px;}
+#contacts li{font-size:12px; color:#474747; line-height:18px; margin:5px 0; float:left;}
+#contacts li label{width:100px; float:left; margin:0px; padding:0px;font-family:verdana; font-size:15px; color:#0097c1; line-height:30px;}
+#contacts li input{border:1px solid #c0c0c0; width:250px; line-height:30px; padding:0px 5px 0px 5px; margin:0px; float:left; font-family:12px; font-family:verdana; height:30px;}
+#contacts li textarea{border:1px solid #c0c0c0; width:250px; padding:5px; margin:0px; float:left; font-family:12px; font-family:verdana; height:100px;}
+#contacts li  .submit{background-image:url(../images/view.png); background-repeat:no-repeat; background-position:left top; width:65px; height:24px; cursor:pointer;  cursor:pointer; line-height:24px; background-color:transparent; border:none; color:#666666; text-align:left;}
+#contacts .google_map{float:left; width:300px; margin:10px 0 0 10px;}
+/*---- contacts -----*/
+
+.sign_up_in input[type="checkbox"] {
+	margin-top:3px;
+	margin-left:-83px;
+}
+.frmRequest{width:100%; float:left; margin:10px 0 0 0;}
+.frmRequest li{width:100%; float:left; margin:5px 0; padding:0px;}
+.frmRequest label{font-size: 13px; font-weight: bold; line-height: 30px; color:#575757; font-family:verdana; float:left; width:160px;}
+.frmRequest input{border:1px solid #C0C0C0; float:left; font-family:verdana; height:30px; line-height:30px; margin:0; padding:0 5px; width:190px;  font-family:verdana; font-size:12px; color:#000000;}
+.frmRequest  textarea{border:1px solid #C0C0C0; float:left; height:80px; margin:0; padding:0px;width:200px; font-family:verdana; font-size:12px; color:#000000;}
+.frmRequest .butt{background-color: transparent; background-image: url("../images/right_email.png"); background-position: right 1px;
+ background-repeat:no-repeat; border:medium none; cursor: pointer; display: block; height: 29px; padding: 0 4px 0 0;}
+.frmRequest .butt span{background-image:url("../images/left_email.png"); background-position:left top; background-repeat:no-repeat; color:#FFFFFF; display:block; font-family:verdana; height:28px; line-height:28px; margin:-1px 0 0; padding:0 0 0 8px; text-transform:uppercase;}
+
+.top_line{margin:40px 50px 0 0; float:right; }
+.top_line h1{color:#264260}

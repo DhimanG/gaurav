@@ -1,0 +1,41 @@
+180.149.246.126
+developer / 	developer123!@#
+
+admin / 	spiffcity@123
+
+http://rosycontact.com/spiff1/popular_after_log.html
+
+http://rosycontact.com/spiff1/member_profile.html
+http://rosycontact.com/spiff1/map_view.html
+var/www/html/gaurav
+
+root/webwerks
+
+---------------------facebook---------------------------
+
+APP ID	     	:561885653907144`		
+APP SECRET ID	:880c40d8d9e5bf82d669a9ecc30fd118
+Client Token	:8c3c0590f86e280e0eae081e8c11c541	
+
+1418351105076163	2b7877e1e93046f61bf292b322fd16d7
+
+
+---------------------twitter-----------------------
+Access level 		Read-only
+			About the application permission model
+Consumer key 		6nATx2rGQICStvDlqnF0g
+Consumer secret 	MesNqVpZ7p6iKtW6giAAtOHY2K4srdpImkl8NLwtlM
+Request token URL 	https://api.twitter.com/oauth/request_token
+Authorize URL 		https://api.twitter.com/oauth/authorize
+Access token URL 	https://api.twitter.com/oauth/access_token
+Callback URL 		None
+Sign in with Twitter 	No
+
+Your access token:
+-----------------
+
+Use the access token string as your "oauth_token" and the access token secret as your "oauth_token_secret" to sign requests with your own Twitter account. Do not share your oauth_token_secret with anyone.
+
+Access token 		2328448495-oYlCgyJxfouleeBLUwyV37ys3RGYz2rwab4dGN2
+Access token secret 	O1VhBzYRHMVNwIZO8DpabD7GJQtcmTZXAoDcbKrhkBJUV
+Access level 		Read-only

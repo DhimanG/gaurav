@@ -1,0 +1,11 @@
+Database: phpdevel_safedoc
+Tables:
+crowdcast_comments
+crowdcast_likes
+radeem_likes
+sp_banner
+sp_comment
+sp_crowdcast
+sp_points
+sp_users
+
